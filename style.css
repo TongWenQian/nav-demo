@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+kbd{
+    border: 1px solid #e7e7e7;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 2px;
+}
+kbd>button{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    display:none;
+}
+kbd:hover>button{
+    display: inline-block;
+}
+button {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 2px;
+}
+main{
+    text-align: center;
+}
+
+#yyy{
+    display: inline-block;
+}
+
