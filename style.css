@@ -2,6 +2,11 @@
     margin: 0;
     padding:0;
 }
+body{
+    background: black url("wall.jpg") no-repeat center center;
+    width: 100%;
+    background-size: cover;
+}
 kbd{
     border: 1px solid #e7e7e7;
     width: 4em;
@@ -33,9 +38,53 @@ button {
 }
 main{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-#yyy{
+.wrapper{
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+#main{
     display: inline-block;
 }
+
+#main>div:nth-child(2){
+    margin-left: -22px;
+}
+#main>div:nth-child(3){
+    margin-left: -80px;
+}
+.keyColor{
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, #292929 0%,#111111 100%);
+    border: none;
+    color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #1A1B1C,0 0 0 2px #1E2020,0 3px 0 2px #000000;
+    font-size: 16px;
+    font-family: Helvetica;
+    position: relative;
+}
+.row{
+    margin:20px;
+}
+.row .keyColor{
+    margin: 0 10px;
+}
+.keyColor img{
+    width: 16px;
+    position: absolute;
+    left:4px;
+    bottom: 2px;
+}
+.keyColor span{
+    position:absolute;
+    left: 4px;
+    top:2px;
+}
+
 
